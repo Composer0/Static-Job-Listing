@@ -1,0 +1,37 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.job {
+  border-style: inset;
+  border-color: black;
+  border-radius: 12.5px;
+  padding: 70px;
+  width: 700px;
+  margin: 2rem 0;
+}
+
+.info {
+  justify-content: flex-start;
+  text-align: left;
+  align-items: center;
+}
+
+.features {
+  display: inline-block;
+  vertical-align: middle;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  text-align: right;
+  align-content: center;
+}
+
+.jobstuff {
+  display: inline-block;
+  vertical-align: middle;
+}
